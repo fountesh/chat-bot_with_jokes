@@ -1,4 +1,4 @@
-bot_token = "6111223991:AAHoyWXCFG_NrCtV8KtSGrkFgA9jnVvecig"
+bot_token = Bot_Token
 
 import requests
 import telebot
@@ -35,7 +35,7 @@ def react_on_message(message):
         url = "https://dad-jokes7.p.rapidapi.com/dad-jokes/random"
 
         headers = {
-            "X-RapidAPI-Key": "a67b36fb9dmsh834e757535157a9p1585a0jsne23cba86f827",
+            "X-RapidAPI-Key": "TOKEN",
             "X-RapidAPI-Host": "dad-jokes7.p.rapidapi.com"
         }
 
